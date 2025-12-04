@@ -3,24 +3,23 @@ import { FaInstagram, FaLine, FaFacebookF, FaLocationArrow, FaTiktok } from "rea
 import { FaLocationPin } from "react-icons/fa6";
 
 const links = [
-  
-  {
+   {
     num: 1,
     title: "Instagram",
-    link: "https://www.instagram.com/tattooremoval.lanaclinic?igsh=MXFiY3J2ejIyNXNmaQ%3D%3D&utm_source=qr",
+    link: "https://www.instagram.com/lanaclinic.official?igsh=MTd3dTd5aHZneWt2Mg==",
     icon: <FaInstagram />,
   },
   {
     num: 2,
-    title: "Facebook",
-    link: "https://www.facebook.com/share/17WzeGNqaj/?mibextid=wwXIfr",
+    title: "Line",
+    link: "https://lin.ee/Vx8nGad",
     icon: <FaLine />,
   },
   {
     num: 3,
-    title: "Tiktok",
-    link: "https://www.tiktok.com/@lanatattooremoval?_r=1&_t=ZS-91uMSjkzejg",
-    icon: <FaTiktok />,
+    title: "Facebook",
+    link: "https://www.facebook.com/share/17YKbwnEzH/?mibextid=wwXIfr",
+    icon: <FaFacebookF />,
   },
   {
     num: 4,
@@ -28,6 +27,30 @@ const links = [
     link: "https://share.google/JUAwMn3wuhsxtUwV4",
     icon: <FaLocationPin/>,
   },
+  // {
+  //   num: 1,
+  //   title: "Instagram",
+  //   link: "https://www.instagram.com/tattooremoval.lanaclinic?igsh=MXFiY3J2ejIyNXNmaQ%3D%3D&utm_source=qr",
+  //   icon: <FaInstagram />,
+  // },
+  // {
+  //   num: 2,
+  //   title: "Facebook",
+  //   link: "https://www.facebook.com/share/17WzeGNqaj/?mibextid=wwXIfr",
+  //   icon: <FaLine />,
+  // },
+  // {
+  //   num: 3,
+  //   title: "Tiktok",
+  //   link: "https://www.tiktok.com/@lanatattooremoval?_r=1&_t=ZS-91uMSjkzejg",
+  //   icon: <FaTiktok />,
+  // },
+  // {
+  //   num: 4,
+  //   title: "Location",
+  //   link: "https://share.google/JUAwMn3wuhsxtUwV4",
+  //   icon: <FaLocationPin/>,
+  // },
 ];
 
 export default function Directions() {
