@@ -1,5 +1,5 @@
 import React from "react";
-import { FaInstagram, FaLine, FaFacebookF, FaLocationArrow } from "react-icons/fa";
+import { FaInstagram, FaLine, FaFacebookF, FaLocationArrow, FaTiktok } from "react-icons/fa";
 import { FaLocationPin } from "react-icons/fa6";
 
 const links = [
@@ -7,20 +7,20 @@ const links = [
   {
     num: 1,
     title: "Instagram",
-    link: "https://www.instagram.com/lanaclinic.official?igsh=MTd3dTd5aHZneWt2Mg==",
+    link: "https://www.instagram.com/tattooremoval.lanaclinic?igsh=MXFiY3J2ejIyNXNmaQ%3D%3D&utm_source=qr",
     icon: <FaInstagram />,
   },
   {
     num: 2,
-    title: "Line",
-    link: "https://lin.ee/Vx8nGad",
+    title: "Facebook",
+    link: "https://www.facebook.com/share/17WzeGNqaj/?mibextid=wwXIfr",
     icon: <FaLine />,
   },
   {
     num: 3,
-    title: "Facebook",
-    link: "https://www.facebook.com/share/17YKbwnEzH/?mibextid=wwXIfr",
-    icon: <FaFacebookF />,
+    title: "Tiktok",
+    link: "https://www.tiktok.com/@lanatattooremoval?_r=1&_t=ZS-91uMSjkzejg",
+    icon: <FaTiktok />,
   },
   {
     num: 4,
